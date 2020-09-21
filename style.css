@@ -71,3 +71,30 @@ img {
 .clear {
   clear: both;
 }
+
+/* MEDIAQUERY SMARTPHONE */
+@media screen and (max-width: 419px) {
+  .row {
+    width: 400px;
+    margin: 0px;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 90%;
+    margin: auto;
+    float: none;
+    margin-bottom: 35px;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  h1{
+  padding-top: 20px;}
+  img {
+    padding-top: 30px;
+  }
+}
